@@ -1,0 +1,34 @@
+This morning I wanted to eat some pizza, so i asked my brother to get me some from Dominos(3km far)
+He got me the pizza and i was happy only to realize it was too less for 29 friends who came to my house for a surprise visit!
+My brother can get 2 pizzas for me on his bike but pizza  for 29 friends is too huge of an input for him which he cannot handle. 
+     2 pizzas - okay not a big deal.
+     68 pizzas - not possible in short time.
+
+Time Complexity :
+Time Complexity is the study of efficiency of algorithms
+How time taken to execute an algorithm grows with the size of the input.
+
+Consider two developers who created an algorithm to sort n numbers. Shubham and Rohan did this independently.
+When ran for input size n, following results were recorded -
+
+No. of elements(n)       Shubham's Algo       Rohan's Algo  
+    10                         90 ms             122 ms
+    70                         110 ms            124 ms
+    110                        180 ms            131 ms
+    1000                       2 s               800 ms
+
+We can see that initially Shubham's algorithm was shining for smaller input but as the number of elements increases Rohan's algorithm looks good!!
+
+Calculating order of in terms of input size :
+
+In order to calculate the order, most impactful term containing n(size of input) is taken into account.
+Let us assume that formula of an algorithm in tems of input size n looks like this -
+
+Algo1 -->        k1n^2       +           k2n + 36                    ==> O(n^2)
+          (Highest order term)     (Can ignore lower order terms)
+
+Algo2 -->        k1k2n^0     +           k3k4  +  8                  ==> O(n^0) or O(1)
+          (Highest order term)
+
+
+Note that these are the formulas for time taken by them.
