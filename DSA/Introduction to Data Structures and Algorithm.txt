@@ -1,0 +1,19 @@
+Data Structures :
+They are the ingredients to make efficient algorithm.
+Arrangement of data so that they can be used efficiently in main memory(RAM).
+Ex : arrays,linked lists,stack, queue etc.
+
+Algorithm :
+Sequence of steps to solve a given problem.
+Ex : steps taken for sorting an array
+
+Other terminologies :
+1.Database : Collection of information in permanent storage(HDD) for faster retrieval and updation.
+2.Data Warehousing : Management of huge amount of legacy data for better analysis.
+3.Big Data : Analysis of too large or complex data which cannot be dealt with traditional data processing application.
+
+Memory layout of C Program : 
+When the program starts, its code is copied to the main memory.
+Stack holds the memory occupied by the functions
+Heap contains the data which is requested by the program as dynamic memory.
+Initialised and uninitialised data segments hold initialised and uninitialised global variables respectively.
